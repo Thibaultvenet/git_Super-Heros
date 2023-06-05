@@ -44,9 +44,9 @@
     "relatives": "-"
   },
   "images": {
-    "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/119-blob.jpg",
-    "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/119-blob.jpg",
-    "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/119-blob.jpg",
-    "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/119-blob.jpg"
+    "xs": "xs/119-blob.jpg",
+    "sm": "sm/119-blob.jpg",
+    "md": "md/119-blob.jpg",
+    "lg": "lg/119-blob.jpg"
   }
 }

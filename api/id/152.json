@@ -49,9 +49,9 @@
     "relatives": "Lisa Snart (sister)"
   },
   "images": {
-    "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/152-captain-cold.jpg",
-    "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/152-captain-cold.jpg",
-    "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/152-captain-cold.jpg",
-    "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/152-captain-cold.jpg"
+    "xs": "xs/152-captain-cold.jpg",
+    "sm": "sm/152-captain-cold.jpg",
+    "md": "md/152-captain-cold.jpg",
+    "lg": "lg/152-captain-cold.jpg"
   }
 }

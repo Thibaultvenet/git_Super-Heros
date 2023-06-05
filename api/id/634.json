@@ -47,9 +47,9 @@
     "relatives": "Robert Hawkins (father), Jean Hawkins (mother), Sharon Hawkins (sister), Homer Hawkins (grandfather), Teshom? Hawkins (uncle, deceased),"
   },
   "images": {
-    "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/634-static.jpg",
-    "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/634-static.jpg",
-    "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/634-static.jpg",
-    "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/634-static.jpg"
+    "xs": "xs/634-static.jpg",
+    "sm": "sm/634-static.jpg",
+    "md": "md/634-static.jpg",
+    "lg": "lg/634-static.jpg"
   }
 }

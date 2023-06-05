@@ -50,9 +50,9 @@
     "relatives": "-"
   },
   "images": {
-    "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/613-spectre.jpg",
-    "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/613-spectre.jpg",
-    "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/613-spectre.jpg",
-    "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/613-spectre.jpg"
+    "xs": "xs/613-spectre.jpg",
+    "sm": "sm/613-spectre.jpg",
+    "md": "md/613-spectre.jpg",
+    "lg": "lg/613-spectre.jpg"
   }
 }

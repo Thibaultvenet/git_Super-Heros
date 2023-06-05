@@ -48,9 +48,9 @@
     "relatives": "Susan Morse (mother); Ben Morse (brother); Hawkeye (Clint Barton) (ex-husband)"
   },
   "images": {
-    "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/462-mockingbird.jpg",
-    "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/462-mockingbird.jpg",
-    "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/462-mockingbird.jpg",
-    "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/462-mockingbird.jpg"
+    "xs": "xs/462-mockingbird.jpg",
+    "sm": "sm/462-mockingbird.jpg",
+    "md": "md/462-mockingbird.jpg",
+    "lg": "lg/462-mockingbird.jpg"
   }
 }

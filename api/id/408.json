@@ -44,9 +44,9 @@
     "relatives": "-"
   },
   "images": {
-    "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/408-lightning-lord.jpg",
-    "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/408-lightning-lord.jpg",
-    "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/408-lightning-lord.jpg",
-    "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/408-lightning-lord.jpg"
+    "xs": "xs/408-lightning-lord.jpg",
+    "sm": "sm/408-lightning-lord.jpg",
+    "md": "md/408-lightning-lord.jpg",
+    "lg": "lg/408-lightning-lord.jpg"
   }
 }

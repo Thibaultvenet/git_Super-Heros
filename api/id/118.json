@@ -44,9 +44,9 @@
     "relatives": "-"
   },
   "images": {
-    "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/118-blizzard-ii.jpg",
-    "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/118-blizzard-ii.jpg",
-    "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/118-blizzard-ii.jpg",
-    "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/118-blizzard-ii.jpg"
+    "xs": "xs/118-blizzard-ii.jpg",
+    "sm": "sm/118-blizzard-ii.jpg",
+    "md": "md/118-blizzard-ii.jpg",
+    "lg": "lg/118-blizzard-ii.jpg"
   }
 }

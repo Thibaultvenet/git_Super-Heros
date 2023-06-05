@@ -45,9 +45,9 @@
     "relatives": "Mr. Grant (father), Mrs. Grant (mother, deceased), William Nelson (husband, deceased)"
   },
   "images": {
-    "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/667-tigra.jpg",
-    "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/667-tigra.jpg",
-    "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/667-tigra.jpg",
-    "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/667-tigra.jpg"
+    "xs": "xs/667-tigra.jpg",
+    "sm": "sm/667-tigra.jpg",
+    "md": "md/667-tigra.jpg",
+    "lg": "lg/667-tigra.jpg"
   }
 }

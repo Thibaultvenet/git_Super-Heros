@@ -44,9 +44,9 @@
     "relatives": "Jartran Radd (father, deceased), Elmar Radd (mother, deceased)"
   },
   "images": {
-    "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/598-silver-surfer.jpg",
-    "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/598-silver-surfer.jpg",
-    "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/598-silver-surfer.jpg",
-    "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/598-silver-surfer.jpg"
+    "xs": "xs/598-silver-surfer.jpg",
+    "sm": "sm/598-silver-surfer.jpg",
+    "md": "md/598-silver-surfer.jpg",
+    "lg": "lg/598-silver-surfer.jpg"
   }
 }

@@ -89,10 +89,10 @@ eg. [`/id/1.json`](https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/id
     "relatives": "Marlo Chandler-Jones (wife); Polly (aunt); Mrs. Chandler (mother-in-law); Keith Chandler, Ray Chandler, three unidentified others (brothers-in-law); unidentified father (deceased); Jackie Shorr (alleged mother; unconfirmed)"
   },
   "images": {
-    "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/1-a-bomb.jpg",
-    "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/1-a-bomb.jpg",
-    "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/1-a-bomb.jpg",
-    "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/1-a-bomb.jpg"
+    "xs": "xs/1-a-bomb.jpg",
+    "sm": "sm/1-a-bomb.jpg",
+    "md": "md/1-a-bomb.jpg",
+    "lg": "lg/1-a-bomb.jpg"
   }
 }
 ```
@@ -178,13 +178,13 @@ eg. [`/work/1.json`](https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/
 GET superhero image
 
 - Thumb (~32x48)
-[`/images/xs/1-a-bomb.jpg`](https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/1-a-bomb.jpg)
+[`/images/xs/1-a-bomb.jpg`](xs/1-a-bomb.jpg)
 
 - Small (~160x240)
-[`/images/sm/1-a-bomb.jpg`](https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/1-a-bomb.jpg)
+[`/images/sm/1-a-bomb.jpg`](sm/1-a-bomb.jpg)
 
 - Medium (~320x480)
-[`/images/md/1-a-bomb.jpg`](https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/1-a-bomb.jpg)
+[`/images/md/1-a-bomb.jpg`](md/1-a-bomb.jpg)
 
 - Large (~480x640)
-[`/images/lg/1-a-bomb.jpg`](https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/1-a-bomb.jpg)
+[`/images/lg/1-a-bomb.jpg`](lg/1-a-bomb.jpg)

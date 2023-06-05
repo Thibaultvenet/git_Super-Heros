@@ -44,9 +44,9 @@
     "relatives": "Ellen Brandt (ex-wife) Job Burke (son)"
   },
   "images": {
-    "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/428-man-thing.jpg",
-    "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/428-man-thing.jpg",
-    "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/428-man-thing.jpg",
-    "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/428-man-thing.jpg"
+    "xs": "xs/428-man-thing.jpg",
+    "sm": "sm/428-man-thing.jpg",
+    "md": "md/428-man-thing.jpg",
+    "lg": "lg/428-man-thing.jpg"
   }
 }

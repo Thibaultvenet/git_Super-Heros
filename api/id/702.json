@@ -44,9 +44,9 @@
     "relatives": "Humbert Carpenter (uncle)"
   },
   "images": {
-    "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/702-walrus.jpg",
-    "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/702-walrus.jpg",
-    "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/702-walrus.jpg",
-    "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/702-walrus.jpg"
+    "xs": "xs/702-walrus.jpg",
+    "sm": "sm/702-walrus.jpg",
+    "md": "md/702-walrus.jpg",
+    "lg": "lg/702-walrus.jpg"
   }
 }

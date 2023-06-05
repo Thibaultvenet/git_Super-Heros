@@ -44,9 +44,9 @@
     "relatives": "-"
   },
   "images": {
-    "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/277-gary-bell.jpg",
-    "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/277-gary-bell.jpg",
-    "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/277-gary-bell.jpg",
-    "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/277-gary-bell.jpg"
+    "xs": "xs/277-gary-bell.jpg",
+    "sm": "sm/277-gary-bell.jpg",
+    "md": "md/277-gary-bell.jpg",
+    "lg": "lg/277-gary-bell.jpg"
   }
 }

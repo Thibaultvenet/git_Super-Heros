@@ -44,9 +44,9 @@
     "relatives": "-"
   },
   "images": {
-    "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/670-toad.jpg",
-    "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/670-toad.jpg",
-    "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/670-toad.jpg",
-    "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/670-toad.jpg"
+    "xs": "xs/670-toad.jpg",
+    "sm": "sm/670-toad.jpg",
+    "md": "md/670-toad.jpg",
+    "lg": "lg/670-toad.jpg"
   }
 }

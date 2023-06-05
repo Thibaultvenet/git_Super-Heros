@@ -44,9 +44,9 @@
     "relatives": "Rapture (Armando Ramon, brother), Dante Ramon (brother)"
   },
   "images": {
-    "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/692-vibe.jpg",
-    "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/692-vibe.jpg",
-    "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/692-vibe.jpg",
-    "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/692-vibe.jpg"
+    "xs": "xs/692-vibe.jpg",
+    "sm": "sm/692-vibe.jpg",
+    "md": "md/692-vibe.jpg",
+    "lg": "lg/692-vibe.jpg"
   }
 }

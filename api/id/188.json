@@ -44,9 +44,9 @@
     "relatives": "-"
   },
   "images": {
-    "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/188-cottonmouth.jpg",
-    "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/188-cottonmouth.jpg",
-    "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/188-cottonmouth.jpg",
-    "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/188-cottonmouth.jpg"
+    "xs": "xs/188-cottonmouth.jpg",
+    "sm": "sm/188-cottonmouth.jpg",
+    "md": "md/188-cottonmouth.jpg",
+    "lg": "lg/188-cottonmouth.jpg"
   }
 }

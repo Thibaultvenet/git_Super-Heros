@@ -47,9 +47,9 @@
     "relatives": "Eson (father, deceased), Peter Quill (Star-Lord, son), Victoria (daughter)"
   },
   "images": {
-    "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/458-mister-knife.jpg",
-    "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/458-mister-knife.jpg",
-    "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/458-mister-knife.jpg",
-    "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/458-mister-knife.jpg"
+    "xs": "xs/458-mister-knife.jpg",
+    "sm": "sm/458-mister-knife.jpg",
+    "md": "md/458-mister-knife.jpg",
+    "lg": "lg/458-mister-knife.jpg"
   }
 }

@@ -44,9 +44,9 @@
     "relatives": "-"
   },
   "images": {
-    "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/341-indiana-jones.jpg",
-    "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/341-indiana-jones.jpg",
-    "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/341-indiana-jones.jpg",
-    "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/341-indiana-jones.jpg"
+    "xs": "xs/341-indiana-jones.jpg",
+    "sm": "sm/341-indiana-jones.jpg",
+    "md": "md/341-indiana-jones.jpg",
+    "lg": "lg/341-indiana-jones.jpg"
   }
 }

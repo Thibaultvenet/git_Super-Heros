@@ -44,9 +44,9 @@
     "relatives": "Vril Dox II (son), Brainiac 5 (descendant)"
   },
   "images": {
-    "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/136-brainiac.jpg",
-    "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/136-brainiac.jpg",
-    "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/136-brainiac.jpg",
-    "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/136-brainiac.jpg"
+    "xs": "xs/136-brainiac.jpg",
+    "sm": "sm/136-brainiac.jpg",
+    "md": "md/136-brainiac.jpg",
+    "lg": "lg/136-brainiac.jpg"
   }
 }

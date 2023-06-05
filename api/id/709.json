@@ -44,9 +44,9 @@
     "relatives": "Ikor (father); Aron (nephew); Qyre, Zoma (cousins)"
   },
   "images": {
-    "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/709-watcher.jpg",
-    "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/709-watcher.jpg",
-    "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/709-watcher.jpg",
-    "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/709-watcher.jpg"
+    "xs": "xs/709-watcher.jpg",
+    "sm": "sm/709-watcher.jpg",
+    "md": "md/709-watcher.jpg",
+    "lg": "lg/709-watcher.jpg"
   }
 }

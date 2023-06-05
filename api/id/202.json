@@ -46,9 +46,9 @@
     "relatives": "Michael Powell (father), Grace Powell (mother), Jonathon and Jason Powell (brothers)"
   },
   "images": {
-    "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/202-darkhawk.jpg",
-    "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/202-darkhawk.jpg",
-    "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/202-darkhawk.jpg",
-    "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/202-darkhawk.jpg"
+    "xs": "xs/202-darkhawk.jpg",
+    "sm": "sm/202-darkhawk.jpg",
+    "md": "md/202-darkhawk.jpg",
+    "lg": "lg/202-darkhawk.jpg"
   }
 }

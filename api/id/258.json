@@ -44,9 +44,9 @@
     "relatives": "-"
   },
   "images": {
-    "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/258-firelord.jpg",
-    "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/258-firelord.jpg",
-    "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/258-firelord.jpg",
-    "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/258-firelord.jpg"
+    "xs": "xs/258-firelord.jpg",
+    "sm": "sm/258-firelord.jpg",
+    "md": "md/258-firelord.jpg",
+    "lg": "lg/258-firelord.jpg"
   }
 }

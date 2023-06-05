@@ -44,9 +44,9 @@
     "relatives": "Philip (father, deceased), Marie (mother)"
   },
   "images": {
-    "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/350-jack-of-hearts.jpg",
-    "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/350-jack-of-hearts.jpg",
-    "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/350-jack-of-hearts.jpg",
-    "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/350-jack-of-hearts.jpg"
+    "xs": "xs/350-jack-of-hearts.jpg",
+    "sm": "sm/350-jack-of-hearts.jpg",
+    "md": "md/350-jack-of-hearts.jpg",
+    "lg": "lg/350-jack-of-hearts.jpg"
   }
 }

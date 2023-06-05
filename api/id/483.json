@@ -46,9 +46,9 @@
     "relatives": "Namor (cousin), Talan (husband, deceased), Namorita (\"daughter\" cloned)"
   },
   "images": {
-    "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/483-namora.jpg",
-    "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/483-namora.jpg",
-    "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/483-namora.jpg",
-    "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/483-namora.jpg"
+    "xs": "xs/483-namora.jpg",
+    "sm": "sm/483-namora.jpg",
+    "md": "md/483-namora.jpg",
+    "lg": "lg/483-namora.jpg"
   }
 }

@@ -44,9 +44,9 @@
     "relatives": "-"
   },
   "images": {
-    "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/518-plantman.jpg",
-    "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/518-plantman.jpg",
-    "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/518-plantman.jpg",
-    "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/518-plantman.jpg"
+    "xs": "xs/518-plantman.jpg",
+    "sm": "sm/518-plantman.jpg",
+    "md": "md/518-plantman.jpg",
+    "lg": "lg/518-plantman.jpg"
   }
 }

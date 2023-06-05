@@ -44,9 +44,9 @@
     "relatives": "-"
   },
   "images": {
-    "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/565-robin-vi.jpg",
-    "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/565-robin-vi.jpg",
-    "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/565-robin-vi.jpg",
-    "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/565-robin-vi.jpg"
+    "xs": "xs/565-robin-vi.jpg",
+    "sm": "sm/565-robin-vi.jpg",
+    "md": "md/565-robin-vi.jpg",
+    "lg": "lg/565-robin-vi.jpg"
   }
 }

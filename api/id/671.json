@@ -44,9 +44,9 @@
     "relatives": "Gina Mulligan (wife), Edward Mulligan (son), Mr. Mulligan (father), Mrs. Mulligan (mother), Carnage (\"father\"), Venom (\"grandfather\")"
   },
   "images": {
-    "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/671-toxin.jpg",
-    "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/671-toxin.jpg",
-    "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/671-toxin.jpg",
-    "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/671-toxin.jpg"
+    "xs": "xs/671-toxin.jpg",
+    "sm": "sm/671-toxin.jpg",
+    "md": "md/671-toxin.jpg",
+    "lg": "lg/671-toxin.jpg"
   }
 }
