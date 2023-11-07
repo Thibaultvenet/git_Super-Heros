@@ -7,15 +7,8 @@ Multiple universes superheroes open-source REST API
 - [glossary](glossary.md)
 
 ### base url
-`https://akabab.github.io/superhero-api/api`
+`https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api`
 
-or cached CDN (faster)
-
-`https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api`
-
-see
-- [JSDelivr](https://www.jsdelivr.com/)
-- [GitHack](https://raw.githack.com/)
 
 
 ### [routes](#routes-1)
@@ -36,12 +29,12 @@ see
 ##### `/all.json`
 GET all superheroes in a single JSON file
 
-eg. [`/all.json`](https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/all.json)
+eg. [`/all.json`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api/all.json)
 
 ##### `/id`
 GET superhero complete informations by id
 
-eg. [`/id/1.json`](https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/id/1.json)
+eg. [`/id/1.json`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api/id/1.json)
 ```json
 {
   "id": 1,
@@ -100,7 +93,7 @@ eg. [`/id/1.json`](https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/id
 ##### `/powerstats`
 GET superhero powerstats by id
 
-eg. [`/powerstats/1.json`](https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/powerstats/1.json)
+eg. [`/powerstats/1.json`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api/powerstats/1.json)
 ```json
 {
   "intelligence": 38,
@@ -115,7 +108,7 @@ eg. [`/powerstats/1.json`](https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.
 ##### `/appearance`
 GET superhero appearance by id
 
-eg. [`/appearance/1.json`](https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/appearance/1.json)
+eg. [`/appearance/1.json`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api/appearance/1.json)
 ```json
 {
   "gender": "Male",
@@ -136,7 +129,7 @@ eg. [`/appearance/1.json`](https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.
 ##### `/biography`
 GET superhero biography by id
 
-eg. [`/biography/1.json`](https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/biography/1.json)
+eg. [`/biography/1.json`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api/biography/1.json)
 ```json
 {
   "fullName": "Richard Milhouse Jones",
@@ -154,7 +147,7 @@ eg. [`/biography/1.json`](https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0
 ##### `/connections`
 GET superhero connections by id
 
-eg. [`/connections/1.json`](https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/connections/1.json)
+eg. [`/connections/1.json`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api/connections/1.json)
 ```json
 {
   "groupAffiliation": "Hulk Family; Excelsior (sponsor), Avengers (honorary member); formerly partner of the Hulk, Captain America and Captain Marvel; Teen Brigade; ally of Rom",
@@ -165,7 +158,7 @@ eg. [`/connections/1.json`](https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3
 ##### `/work`
 GET superhero work by id
 
-eg. [`/work/1.json`](https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/work/1.json)
+eg. [`/work/1.json`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api/work/1.json)
 ```json
 {
   "occupation": "Musician, adventurer, author; formerly talk show host",
