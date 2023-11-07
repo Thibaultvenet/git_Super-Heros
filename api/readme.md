@@ -6,7 +6,7 @@ Multiple universes superheroes open-source REST API
 ## References
 - [glossary](glossary.md)
 
-### base url
+###  url de base
 `https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api`
 
 
@@ -27,12 +27,12 @@ Multiple universes superheroes open-source REST API
 ## Routes
 
 ##### `/all.json`
-GET all superheroes in a single JSON file
+Tous les superheroes dans un seul fichier JSON
 
 eg. [`/all.json`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api/all.json)
 
 ##### `/id`
-GET superhero complete informations by id
+Obtenir toutes les informations d'un superhero à l'aide de son id
 
 eg. [`/id/1.json`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api/id/1.json)
 ```json
@@ -91,7 +91,8 @@ eg. [`/id/1.json`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/mas
 ```
 
 ##### `/powerstats`
-GET superhero powerstats by id
+Obtenir les __powerstats__ d'un superhero à l'aide de son id
+
 
 eg. [`/powerstats/1.json`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api/powerstats/1.json)
 ```json
@@ -106,7 +107,8 @@ eg. [`/powerstats/1.json`](https://raw.githubusercontent.com/INSA-UPHF/git-super
 ```
 
 ##### `/appearance`
-GET superhero appearance by id
+Obtenir __appearance__ d'un superhero à l'aide de son id
+
 
 eg. [`/appearance/1.json`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api/appearance/1.json)
 ```json
@@ -127,7 +129,8 @@ eg. [`/appearance/1.json`](https://raw.githubusercontent.com/INSA-UPHF/git-super
 ```
 
 ##### `/biography`
-GET superhero biography by id
+Obtenir __biography__ d'un superhero à l'aide de son id
+
 
 eg. [`/biography/1.json`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api/biography/1.json)
 ```json
@@ -145,7 +148,7 @@ eg. [`/biography/1.json`](https://raw.githubusercontent.com/INSA-UPHF/git-superh
 ```
 
 ##### `/connections`
-GET superhero connections by id
+Obtenir __connections__ d'un superhero à l'aide de son id
 
 eg. [`/connections/1.json`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api/connections/1.json)
 ```json
@@ -156,7 +159,7 @@ eg. [`/connections/1.json`](https://raw.githubusercontent.com/INSA-UPHF/git-supe
 ```
 
 ##### `/work`
-GET superhero work by id
+Obtenir __work__ d'un superhero à l'aide de son id
 
 eg. [`/work/1.json`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api/work/1.json)
 ```json
@@ -168,7 +171,7 @@ eg. [`/work/1.json`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/m
 
 
 ## Images
-GET superhero image
+Obtenir l'image d'un superhero à l'aide de son id
 
 - Thumb (~32x48)
 [`/images/xs/1-a-bomb.jpg`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api/xs/1-a-bomb.jpg)
