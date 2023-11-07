@@ -1,7 +1,7 @@
 
 # API
 
-Multiple universes superheroes open-source REST APIv222
+Multiple universes superheroes open-source REST API
 
 ## References
 - [glossary](glossary.md)
@@ -171,13 +171,13 @@ eg. [`/work/1.json`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/m
 GET superhero image
 
 - Thumb (~32x48)
-[`/images/xs/1-a-bomb.jpg`](xs/1-a-bomb.jpg)
+[`/images/xs/1-a-bomb.jpg`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api/xs/1-a-bomb.jpg)
 
 - Small (~160x240)
-[`/images/sm/1-a-bomb.jpg`](sm/1-a-bomb.jpg)
+[`/images/sm/1-a-bomb.jpg`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api/sm/1-a-bomb.jpg)
 
 - Medium (~320x480)
-[`/images/md/1-a-bomb.jpg`](md/1-a-bomb.jpg)
+[`/images/md/1-a-bomb.jpg`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api/md/1-a-bomb.jpg)
 
 - Large (~480x640)
-[`/images/lg/1-a-bomb.jpg`](lg/1-a-bomb.jpg)
+[`/images/lg/1-a-bomb.jpg`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api/lg/1-a-bomb.jpg)
