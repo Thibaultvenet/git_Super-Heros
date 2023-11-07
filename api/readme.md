@@ -1,7 +1,7 @@
 
 # API
 
-Multiple universes superheroes open-source REST APIv2
+Multiple universes superheroes open-source REST APIv222
 
 ## References
 - [glossary](glossary.md)
