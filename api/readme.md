@@ -10,7 +10,6 @@ Multiple universes superheroes open-source REST API
 `https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api`
 
 
-
 ### [routes](#routes-1)
 - [`/all.json`](#alljson)
 - [`/id`](#id)
@@ -174,13 +173,13 @@ eg. [`/work/1.json`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/m
 Obtenir l'image d'un superhero à l'aide de son id
 
 - Thumb (~32x48)
-[`/images/xs/1-a-bomb.jpg`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api/xs/1-a-bomb.jpg)
+[`/images/xs/1-a-bomb.jpg`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api/images/xs/1-a-bomb.jpg)
 
 - Small (~160x240)
-[`/images/sm/1-a-bomb.jpg`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api/sm/1-a-bomb.jpg)
+[`/images/sm/1-a-bomb.jpg`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api/images/sm/1-a-bomb.jpg)
 
 - Medium (~320x480)
-[`/images/md/1-a-bomb.jpg`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api/md/1-a-bomb.jpg)
+[`/images/md/1-a-bomb.jpg`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api/images/md/1-a-bomb.jpg)
 
 - Large (~480x640)
-[`/images/lg/1-a-bomb.jpg`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api/lg/1-a-bomb.jpg)
+[`/images/lg/1-a-bomb.jpg`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/master/api/images/lg/1-a-bomb.jpg)
