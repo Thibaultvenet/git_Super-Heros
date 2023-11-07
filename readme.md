@@ -167,7 +167,7 @@ eg. [`/work/1.json`](https://raw.githubusercontent.com/INSA-UPHF/git-superhero/m
   "base": "-"
 }
 ```
-
+ nnbb
 
 ## Images
 Obtenir l'image d'un superhero à l'aide de son id
