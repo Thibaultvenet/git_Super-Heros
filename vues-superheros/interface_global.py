@@ -7,5 +7,4 @@ height= interface.winfo_screenheight()
 
 interface.geometry("%dx%d" % (width, height))
 
-
 interface.mainloop()
