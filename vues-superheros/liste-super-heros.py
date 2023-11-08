@@ -1,6 +1,7 @@
 import tkinter as tk
 
-def displaySuperHeroesList():
+def superHeroesListFrame():
     """
     Crée la vue principale de l'affichage des super héros
     """
+    
