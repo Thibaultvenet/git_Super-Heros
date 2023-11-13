@@ -82,3 +82,44 @@ superhero_list = load_superheroes_from_json(json_file_path)
 # Accéder à la liste de super-héros
 for superhero in superhero_list.superheroes:
     print(superhero.name)
+
+def modify_superhero(json_file_path):
+    superhero_name = input("Entrez le nom du super héro à modifier : ")
+
+    with open(json_file_path, "r") as file:
+        data = json.load(file)
+
+    for superhero_data in data:
+        if superhero_data["name"] == superhero_name:
+            print(f"Modification des données pour {superhero_name}")
+            field_path = input("Entrez le chemin du champ  (exemple, 'name' or 'powerstats.speed') : ")
+
+            # Split the field path into individual fields
+            field_path_list = field_path.split('.')
+            current_data = superhero_data
+
+            # Traverse the nested structure to find the target field
+            for field in field_path_list[:-1]:
+                if field in current_data:
+                    current_data = current_data[field]
+                else:
+                    print(f"{field} n'est pas un champ valide pour {superhero_name}")
+                    return
+
+            # Modify the final field (except for the last field in the path)
+            last_field = field_path_list[-1]
+            new_value = input(f"Entrez la nouvelle valeur pour {last_field} : ")
+
+            # Convert new value to integer if the original field is an integer
+            if isinstance(current_data[last_field], int):
+                new_value = int(new_value)
+
+            current_data[last_field] = new_value
+            print(f"{last_field} a été modifié par {new_value}")
+
+    with open(json_file_path, "w") as file:
+        json.dump(data, file, indent=2)
+
+# Exemple d'utilisation :
+modify_superhero(json_file_path)
+
