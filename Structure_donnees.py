@@ -1,21 +1,18 @@
+import json
+
 class SuperHero:
     def __init__(self, data):
         self.id = data["id"]
         self.name = data["name"]
         self.slug = data["slug"]
+        self.powerstats = PowerStats(data["powerstats"])
+        self.appearance = Appearance(data["appearance"])
+        self.biography = Biography(data["biography"])
+        self.work = Work(data["work"])
+        self.connections = Connections(data["connections"])
+        self.images = Images(data["images"])
 
-# Exemple d'utilisation de la classe SuperHero
-# Supposons que vous ayez le JSON sous forme de dictionnaire
-data = {
-    "id": 0,
-    "name": "",
-    "slug": "",
-}
-SuperHero = SuperHero(data)
-
-
-
-class powerstats:
+class PowerStats:
     def __init__(self, data):
         self.intelligence = data["intelligence"]
         self.strength = data["strength"]
@@ -23,23 +20,6 @@ class powerstats:
         self.durability = data["durability"]
         self.power = data["power"]
         self.combat = data["combat"]
-
-# Exemple d'utilisation de la classe Appearance
-# Supposons que vous ayez le JSON sous forme de dictionnaire
-data = {
-    "intelligence": 0,
-    "strength": 0,
-    "speed": 0,
-    "durability": 0,
-    "power": 0,
-    "combat": 0
-}
-
-# Créez une instance de Appearance en utilisant les données JSON
-powerstats_data = powerstats(data)
-
-
-
 
 class Appearance:
     def __init__(self, data):
@@ -49,23 +29,6 @@ class Appearance:
         self.weight = data["weight"]
         self.eyeColor = data["eyeColor"]
         self.hairColor = data["hairColor"]
-
-# Exemple d'utilisation de la classe Appearance
-# Supposons que vous ayez le JSON sous forme de dictionnaire
-data = {
-    "gender": "",
-    "race": "",
-    "height": ["0'0", "0 cm"],
-    "weight": ["0 lb", "0 kg"],
-    "eyeColor": "",
-    "hairColor": ""
-}
-
-
-
-
-
-
 
 class Biography:
     def __init__(self, data):
@@ -77,62 +40,15 @@ class Biography:
         self.publisher = data["publisher"]
         self.alignment = data["alignment"]
 
-# Exemple d'utilisation de la classe Biography
-# Supposons que vous ayez le JSON sous forme de dictionnaire
-data = {
-    "fullName": "",
-    "alterEgos": "",
-    "aliases": [""],
-    "placeOfBirth": "",
-    "firstAppearance": "",
-    "publisher": "",
-    "alignment": ""
-}
-
-# Créez une instance de Biography en utilisant les données JSON
-biography_data = Biography(data)
-
-
-
-
-
 class Work:
     def __init__(self, data):
         self.occupation = data["occupation"]
         self.base = data["base"]
 
-# Exemple d'utilisation de la classe Work
-# Supposons que vous ayez le JSON sous forme de dictionnaire
-data = {
-    "occupation": "",
-    "base": ""
-}
-
-# Créez une instance de Work en utilisant les données JSON
-work_data = Work(data)
-
-
-
-
-
 class Connections:
     def __init__(self, data):
         self.groupAffiliation = data["groupAffiliation"]
         self.relatives = data["relatives"]
-
-# Exemple d'utilisation de la classe Connections
-# Supposons que vous ayez le JSON sous forme de dictionnaire
-data = {
-    "groupAffiliation": "",
-    "relatives": ""
-}
-
-# Créez une instance de Connections en utilisant les données JSON
-connections_data = Connections(data)
-
-
-
-
 
 class Images:
     def __init__(self, data):
@@ -141,14 +57,28 @@ class Images:
         self.md = data["md"]
         self.lg = data["lg"]
 
-# Exemple d'utilisation de la classe Images
-# Supposons que vous ayez le JSON sous forme de dictionnaire
-data = {
-    "xs": "",
-    "sm": "",
-    "md": "",
-    "lg": ""
-}
+class SuperHeroList:
+    def __init__(self):
+        self.superheroes = []
 
-# Créez une instance de Images en utilisant les données JSON
-images_data = Images(data)
+    def add_superhero(self, superhero):
+        self.superheroes.append(superhero)
+
+def load_superheroes_from_json(file_path):
+    superhero_list = SuperHeroList()
+
+    with open(file_path, "r") as file:
+        data = json.load(file)
+        for superhero_data in data:
+            superhero = SuperHero(superhero_data)
+            superhero_list.add_superhero(superhero)
+
+    return superhero_list
+
+# Exemple d'utilisation :
+json_file_path = "api/all.json"
+superhero_list = load_superheroes_from_json(json_file_path)
+
+# Accéder à la liste de super-héros
+for superhero in superhero_list.superheroes:
+    print(superhero.name)
