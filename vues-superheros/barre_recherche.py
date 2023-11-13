@@ -9,7 +9,7 @@ def cherch():
 def barre_recherche(interface):
     # création de la barre de recherche
     entry = tk.Entry(interface)
-    entry.place(x=590, y=25,width=300, height=25)
+    entry.pack()
     recherche = entry.get()
 
     print(f"Recherche en cours... : {recherche}")
