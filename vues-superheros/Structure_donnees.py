@@ -81,5 +81,5 @@ json_file_path = "all.json"
 superhero_list = load_superheroes_from_json(json_file_path)
 
 # Accéder à la liste de super-héros
-#for superhero in superhero_list.superheroes:
-#    print(superhero.images.xs)
+for superhero in superhero_list.superheroes:
+    print(superhero.images.xs)

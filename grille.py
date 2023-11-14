@@ -6,8 +6,8 @@ Auteur : Toudjani Soumana - Abdoul Majid
 
 import tkinter as tk
 
-import Structure_donnees as SD
-from PIL import Image, ImageTk
+from PIL import Image
+from PIL import ImageTk
 
 
 class Grille :
@@ -42,11 +42,20 @@ class Grille :
         param positionX : la position X ou placer la grille
         param positionY : la position Y ou placer la grille
         """
+        original_image = Image.open(self.hero.images.lg)
+        resized_image = original_image.resize((350, 250), Image.ANTIALIAS)  # Ajuster la taille selon tes besoins
+        image = ImageTk.PhotoImage(resized_image)
+
+        # Créer un label avec l'image comme fond
+        
         grid_frame = tk.Frame(parentFrame,width=self.largeur,height=self.hauteur,bg="red")
         grid_frame.grid(row = ligne, column = colonne,padx=10, pady=10) # placement de la grille à la ligne et à la colonne souhaité
         
         hero_image_frame = tk.Frame(grid_frame,width=350,height=250,bg="blue")
         hero_image_frame.place(x=0,y=0)
+        image_label = tk.Label(hero_image_frame, image=self.image)
+        image_label.place(x=0,y=0)
+        
         
         hero_name_frame = tk.Frame(grid_frame,width=350,height=100,bg="yellow")
         hero_name_frame.place(x=0,y=250)

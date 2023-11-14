@@ -1,6 +1,8 @@
 import tkinter as tk
 import grille
 
+import Structure_donnees as SD
+
 
 # Nombre de grilles par ligne
 grids_per_row = 3
@@ -17,8 +19,9 @@ def superHeroesListFrame(interface):
     Crée la vue principale de l'affichage des super héros
     """
     
-    for i in range(total_grids):
-        g = grille.Grille(350,450,"test.png")
+    #parcours de la liste des super héros
+    for i in range(len(SD. superhero_list.superheroes) ):
+        g = grille.Grille(350,450,SD. superhero_list.superheroes[i])
         g.placer( interface,(i // grids_per_row)+1, i % grids_per_row)
     
     
