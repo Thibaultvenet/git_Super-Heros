@@ -1,0 +1,53 @@
+{
+  "id": 327,
+  "name": "Hit-Girl",
+  "slug": "327-hit-girl",
+  "powerstats": {
+    "intelligence": 56,
+    "strength": 7,
+    "speed": 29,
+    "durability": 20,
+    "power": 27,
+    "combat": 65
+  },
+  "appearance": {
+    "gender": "Female",
+    "race": "Human",
+    "height": [
+      "-",
+      "0 cm"
+    ],
+    "weight": [
+      "- lb",
+      "0 kg"
+    ],
+    "eyeColor": "-",
+    "hairColor": "-"
+  },
+  "biography": {
+    "fullName": "Mindy McCready",
+    "alterEgos": "No alter egos found.",
+    "aliases": [
+      "Hit Girl",
+      "Hitgirl"
+    ],
+    "placeOfBirth": "-",
+    "firstAppearance": "-",
+    "publisher": "Icon Comics",
+    "alignment": "good"
+  },
+  "work": {
+    "occupation": "-",
+    "base": "-"
+  },
+  "connections": {
+    "groupAffiliation": "-",
+    "relatives": "-"
+  },
+  "images": {
+    "xs": "xs/327-hit-girl.jpg",
+    "sm": "sm/327-hit-girl.jpg",
+    "md": "md/327-hit-girl.jpg",
+    "lg": "lg/327-hit-girl.jpg"
+  }
+}

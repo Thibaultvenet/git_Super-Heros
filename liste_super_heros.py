@@ -20,7 +20,7 @@ def superHeroesListFrame(interface):
     """
     
     #parcours de la liste des super héros
-    for i in range(len(SD. superhero_list.superheroes) ):
+    for i in range(5):
         g = grille.Grille(350,450,SD. superhero_list.superheroes[i])
         g.placer( interface,(i // grids_per_row)+1, i % grids_per_row)
     

@@ -42,7 +42,9 @@ class Grille :
         param positionX : la position X ou placer la grille
         param positionY : la position Y ou placer la grille
         """
-        original_image = Image.open(self.hero.images.lg)
+        
+        print("api/images/"+self.hero.images.xs)
+        original_image = Image.open("api/images/"+self.hero.images.xs)
         resized_image = original_image.resize((350, 250), Image.ANTIALIAS)  # Ajuster la taille selon tes besoins
         image = ImageTk.PhotoImage(resized_image)
 
@@ -51,10 +53,12 @@ class Grille :
         grid_frame = tk.Frame(parentFrame,width=self.largeur,height=self.hauteur,bg="red")
         grid_frame.grid(row = ligne, column = colonne,padx=10, pady=10) # placement de la grille à la ligne et à la colonne souhaité
         
-        hero_image_frame = tk.Frame(grid_frame,width=350,height=250,bg="blue")
+        hero_image_frame = tk.Frame(grid_frame,width=350,height=250)
         hero_image_frame.place(x=0,y=0)
-        image_label = tk.Label(hero_image_frame, image=self.image)
-        image_label.place(x=0,y=0)
+        
+        
+        image_label = tk.Label(hero_image_frame, image=image)
+        image_label.place(x=0,y=0,relwidth=1, relheight=1)
         
         
         hero_name_frame = tk.Frame(grid_frame,width=350,height=100,bg="yellow")
