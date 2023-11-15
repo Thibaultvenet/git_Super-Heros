@@ -1,6 +1,10 @@
 import json
 import sys
 
+
+json_file_path = "api/all.json"  # Chemin du fichier .JSON dont on se sert
+
+
 # Definition de la structure de données sous forme de dictionnaire
 class SuperHero:
     def __init__(self, data):
@@ -127,19 +131,22 @@ def load_superheroes_from_json(file_path):
 
     return superhero_list
 
+def show_superhero(superhero_list):
+    for superhero in superhero_list.superheroes:
+        # Affiche le nom de tous les super héros
+        print(superhero.name)
+
 
 # Exemple d'utilisation :
-json_file_path = "api/all.json"  # Mettre le chemin source du fichier JSON
 superhero_list = load_superheroes_from_json(json_file_path)
 
 if superhero_list is not None:
     # Les données ont été chargées avec succès
-    # Accéder à la liste de super-héros
     print("Les données ont été chargées avec succès, voici le nom de tous les super héros :")
 
-    for superhero in superhero_list.superheroes:
-        # Affiche le nom de tous les super héros
-        print(superhero.name)
+    # Affiche le nom de tous les super héros
+    show_superhero(superhero_list)
+
     pass
 else:
     # Il y a eu une erreur lors du chargement des données
@@ -198,5 +205,119 @@ def modify_superhero(json_file_path):
         json.dump(data, file, indent=2)
 
 
+
+def add_superhero(json_file_path):
+    with open(json_file_path, "r") as file:
+        data = json.load(file)
+
+    # Vérifier l'unicité de l'ID
+    while True:
+        new_id = int(input("Entrez l'ID du super héros (0 pour quitter) : "))
+
+        if new_id == 0:
+            print("Opération annulée. Aucun super héros n'a été ajouté.")
+            return
+
+        existing_ids = {superhero["id"] for superhero in data}
+        if new_id not in existing_ids:
+            break
+        else:
+            print("Erreur: Cet ID existe déjà pour un super héros. Veuillez choisir un ID unique.")
+
+    new_superhero = {
+        "id": new_id,
+        "name": input("Entrez le nom du super héros (0 pour quitter) : "),
+        "slug": input("Entrez le slug du super héros (0 pour quitter) : "),
+        "powerstats": {
+            "intelligence": int(input("Entrez l'intelligence : ")),
+            "strength": int(input("Entrez la force : ")),
+            "speed": int(input("Entrez la vitesse : ")),
+            "durability": int(input("Entrez la durabilité : ")),
+            "power": int(input("Entrez la puissance : ")),
+            "combat": int(input("Entrez le combat : ")),
+        },
+        "appearance": {
+            "gender": input("Entrez le genre : "),
+            "race": input("Entrez la race : "),
+            "height": [input("Entrez la hauteur en feet : "), input("Entrez la hauteur en cm : ")],
+            "weight": [input("Entrez le poids en lb : "), input("Entrez le poids en kg : ")],
+            "eyeColor": input("Entrez la couleur des yeux : "),
+            "hairColor": input("Entrez la couleur des cheveux : "),
+        },
+        "biography": {
+            "fullName": input("Entrez le nom complet : "),
+            "alterEgos": input("Entrez les alter egos : "),
+            "aliases": [input("Entrez les alias (séparés par des virgules) : ")],
+            "placeOfBirth": input("Entrez le lieu de naissance : "),
+            "firstAppearance": input("Entrez la première apparition : "),
+            "publisher": input("Entrez le éditeur : "),
+            "alignment": input("Entrez l'alignement : "),
+        },
+        "work": {
+            "occupation": input("Entrez l'occupation : "),
+            "base": input("Entrez la base : "),
+        },
+        "connections": {
+            "groupAffiliation": input("Entrez l'affiliation au groupe : "),
+            "relatives": input("Entrez les relations : "),
+        },
+        "images": {
+            "xs": input("Entrez le chemin de l'image XS : "),
+            "sm": input("Entrez le chemin de l'image SM : "),
+            "md": input("Entrez le chemin de l'image MD : "),
+            "lg": input("Entrez le chemin de l'image LG : "),
+        },
+    }
+
+    data.append(new_superhero)
+
+    with open(json_file_path, "w") as file:
+        json.dump(data, file, indent=2)
+
+    print(f"Le super héros {new_superhero['name']} a été ajouté avec succès.")
+
+
+
+def delete_superhero(json_file_path):
+    with open(json_file_path, "r") as file:
+        data = json.load(file)
+
+    while True:
+        superhero_identifier = input("Entrez le nom ou l'ID du super héros que vous souhaitez supprimer (0 pour quitter) : ")
+
+        # Vérifier si l'utilisateur souhaite quitter
+        if superhero_identifier == "0":
+            print("Opération annulée. Aucun super héros n'a été supprimé.")
+            break
+
+        # Vérifier si l'identifiant est un nombre (ID) ou une chaîne de caractères (nom)
+        if superhero_identifier.isdigit():
+            superhero_identifier = int(superhero_identifier)
+            field = "id"
+        else:
+            field = "name"
+
+        # Rechercher le super-héros dans la liste
+        found_superhero = None
+        for superhero in data:
+            if superhero[field] == superhero_identifier:
+                found_superhero = superhero
+                break
+
+        # Si le super-héros est trouvé, le supprimer
+        if found_superhero:
+            data.remove(found_superhero)
+            with open(json_file_path, "w") as file:
+                json.dump(data, file, indent=2)
+            print(f"Le super héros {found_superhero['name']} a été supprimé avec succès.")
+            break
+        else:
+            print(f"Aucun super héros trouvé avec {field} : {superhero_identifier}. Veuillez réessayer.")
+
+
 # Exemple d'utilisation :
-modify_superhero(json_file_path)
+
+
+#modify_superhero(json_file_path)
+#add_superhero(json_file_path)
+#delete_superhero(json_file_path)
