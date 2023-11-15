@@ -4,6 +4,7 @@ import tkinter as tk
 from tkinter import Button
 from liste_superheros import afficher_liste_superheros
 
+
 class VotreApplication:
     def __init__(self):
         self.fenetre = tk.Tk()
