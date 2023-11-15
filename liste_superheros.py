@@ -44,7 +44,6 @@ def afficher_liste_superheros(fenetre, logo, rechercher_superheros, recherche_av
         {"nom": "Batman", "image": "profil_heros_test.png"},
         {"nom": "Batman", "image": "profil_heros_test.png"},
         {"nom": "Batman", "image": "profil_heros_test.png"},
-        {"nom": "Batman", "image": "profil_heros_test.png"},
         # Ajoutez d'autres super-héros selon vos besoins
     ]
 
@@ -82,6 +81,9 @@ def afficher_liste_superheros(fenetre, logo, rechercher_superheros, recherche_av
         label_image = tk.Label(cadre_interieur, image=image, text=nom, compound=tk.BOTTOM)
         label_image.photo = image
         label_image.grid(row=i // 6, column=i % 6, padx=10, pady=10)
+
+        bouton_superheros = Button(cadre_interieur, text="Action", width=10, height=2, command=lambda x=nom: print(f"Bouton cliqué pour {x}"))
+        bouton_superheros.grid(row=i // 6 + 1, column=i % 6, padx=10, pady=5)
 
     # Configuration du Canvas pour qu'il suive la taille du cadre interieur
     cadre_interieur.update_idletasks()
