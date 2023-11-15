@@ -17,7 +17,7 @@ def superHeroesListFrame(interface):
     Crée la vue principale de l'affichage des super héros
     """
     
-    for i in range(total_grids):
+    for i in range(200):
         g = grille.Grille(350,450,"test.png")
         g.placer( interface,(i // grids_per_row)+1, i % grids_per_row)
     
