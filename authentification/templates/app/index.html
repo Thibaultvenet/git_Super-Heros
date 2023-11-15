@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% for message in messages %}
+    <div class="alert">{{ message }}</div>
+{% endfor %}
+
+{% if user.is_authenticated %}
+    <h3>Bonjour {{ firstname }} bienvenue super héros</h3>
+    <button type="submit"><a href="/logout">Déconnexion</a></button>
+
+    <form action="/update-password" method="post" class="user-form">
+        {% csrf_token %}
+        <label for="firstname">Prénom: {{ firstname }}</label><br>
+        <label for="newPassword">Nouveau mot de passe :</label>
+        <input type="password" id="newPassword" name="newPassword" required>
+        <button type="submit" class="submit-btn">Modifier le mot de passe</button>
+    </form>
+{% else %}
+    <button type="submit" class="auth-btn"><a href="/register">S'inscrire</a></button>
+    <button type="submit" class="auth-btn"><a href="/login">Connexion</a></button>
+{% endif %}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 0;
+    }
+
+    .alert {
+        background-color: #dff0d8;
+        color: #3c763d;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #d6e9c6;
+        border-radius: 4px;
+    }
+
+    h3 {
+        color: #337ab7;
+    }
+
+    .user-form {
+        margin-top: 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input {
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+
+    .submit-btn {
+        background-color: #5bc0de;
+        color: #fff;
+        padding: 8px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .auth-btn {
+        background-color: #d9534f;
+        color: #fff;
+        padding: 8px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+</style>
+
+{% endblock %}

@@ -1,0 +1,7 @@
+{% autoescape off %}  
+Bonjour {{ name }}
+Nous vous remercions d'avoir installer à l'Application Supe Hero, 
+Veuillez comfirmer votre adresse mail en clickant sur le lien suivant pour pouvoir vous connecter,
+lien: http://{{ domain }}{% url 'activate' uidb64=uid token=token %}
+
+{% endautoescape %}
