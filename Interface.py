@@ -1,3 +1,7 @@
+import vues-superheros.interface_global
+import rechercheAvancees
+import Structure_donnees
+
 def menu():
     print("Que souhaitez vous faire à présent ?\n")
     print("1 - Afficher tout les super-héros.")
@@ -5,24 +9,25 @@ def menu():
     print("3 - Modifier un super-héros.")
     print("4 - Supprimer un super-héros.")
     print("5 - Rechercher un super-héros.\n")
+    print("6 - Quitter.\n")
     choix = input("Votre choix : ")
-    while not choix.isdigit() or choix < "1" or choix > "5":
+    while not choix.isdigit() or choix < "1" or choix > "6":
         print("Erreur : choix invalide")
         choix = input("Votre choix : ")
     if choix == "1":
-        # Affichertout
+        Structure_donnees.show_superhero(Structure_donnees.load_superheroes_from_json('api/all.json'))
         menu()
     elif choix == "2":
-        # Ajouter
+        Structure_donnees.add_superhero('api/all.json')
         menu()
     elif choix == "3":
-        # Modifier
+        Structure_donnees.modify_superhero('api/all.json')
         menu()
     elif choix == "4":
-        # Supprimer
+        Structure_donnees.delete_superhero('api/all.json')
         menu()
     elif choix == "5":
-        # Rechercher
+        rechercheAvancees.rechercher()
         menu()
 
 
