@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import Button, Entry, Scrollbar, Canvas
+from fiche_perso import FichePerso
 
 def afficher_liste_superheros(fenetre, logo, rechercher_superheros, recherche_avancee_superheros):
     # Détruire les widgets actuels (sauf le logo)
@@ -69,6 +70,13 @@ def afficher_liste_superheros(fenetre, logo, rechercher_superheros, recherche_av
     # Tri de la liste des super-héros par ordre alphabétique
     liste_superheros = sorted(liste_superheros, key=lambda x: x["nom"])
 
+    # Création de la fenêtre d'accueil
+    def ficheperso():
+        fenetre_accueil = tk.Tk()
+        fenetre_accueil.title("Accueil")
+        fenetre_accueil.geometry("800x600")
+        return FichePerso(fenetre_accueil)
+
     # Affichage des super-héros dans des carrés
     for i, superheros in enumerate(liste_superheros):
         nom = superheros["nom"]
@@ -82,7 +90,7 @@ def afficher_liste_superheros(fenetre, logo, rechercher_superheros, recherche_av
         label_image.photo = image
         label_image.grid(row=i // 6, column=i % 6, padx=10, pady=10)
 
-        bouton_superheros = Button(cadre_interieur, text="Action", width=10, height=2, command=lambda x=nom: print(f"Bouton cliqué pour {x}"))
+        bouton_superheros = Button(cadre_interieur, text="Action", width=10, height=2, command=None)
         bouton_superheros.grid(row=i // 6 + 1, column=i % 6, padx=10, pady=5)
 
     # Configuration du Canvas pour qu'il suive la taille du cadre interieur
