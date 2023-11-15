@@ -11,6 +11,7 @@ class VotreApplication:
         self.fenetre.title("Accueil")
         self.fenetre.geometry("1280x720")
         self.fenetre.configure(bg="#FFC13B")
+        self.fenetre.resizable(False, False)  
 
         self.logo = tk.PhotoImage(file="logo.png").subsample(6)
         label_logo = tk.Label(self.fenetre, image=self.logo, bg="#FFC13B")
