@@ -40,6 +40,11 @@ def afficher_liste_superheros(fenetre, logo, rechercher_superheros, recherche_av
         {"nom": "Batman", "image": "profil_heros_test.png"},
         {"nom": "Batman", "image": "profil_heros_test.png"},
         {"nom": "Batman", "image": "profil_heros_test.png"},
+        {"nom": "Batman", "image": "profil_heros_test.png"},
+        {"nom": "Batman", "image": "profil_heros_test.png"},
+        {"nom": "Batman", "image": "profil_heros_test.png"},
+        {"nom": "Batman", "image": "profil_heros_test.png"},
+        {"nom": "Batman", "image": "profil_heros_test.png"},
         # Ajoutez d'autres super-héros selon vos besoins
     ]
 
